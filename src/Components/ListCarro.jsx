@@ -2,11 +2,14 @@ import React from "react";
 
 const ListCarro = (props) => {
     return(
+      <>
+        <h2>{props.subtitulo}</h2>
         <ul>
-          {props.props.map((item) => (
+          {props.carros.map((item) => (
             <li>{item}</li>
           ))}
         </ul>
+      </>
     )
 }
 

@@ -4,10 +4,11 @@ import ListCarro from "./ListCarro";
 
 const Carro = () => {
   const carros = ["Ferrari", "Porshe", "Audi", "BMW", "Mercedes"]
+  const subtitulo = "Carros"
   return (
     <>
       <img src={ImagemCarro} alt="Carro" width="500px"/>
-      <ListCarro props={carros}/>
+      <ListCarro carros={carros} subtitulo={subtitulo}/>
     </>
   )
 }
