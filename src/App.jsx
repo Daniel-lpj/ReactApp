@@ -1,13 +1,13 @@
 import React from "react";
 import Cabecalho from "./Components/Cabecalho";
-import Carros from "./Components/Carros";
+import Carro from "./Components/Carro";
 import Parceiros from "./Components/Parceiros";
 
 const App = () => {
   return (
     < >
       <Cabecalho />
-      <Carros />
+      <Carro />
       <Parceiros />
     </>
   );

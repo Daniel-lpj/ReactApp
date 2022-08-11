@@ -3,7 +3,7 @@ import React from "react";
 const Parceiros = () => {
     return (
         <>
-            <h2>Subtítulo</h2>
+            <h2>Links</h2>
             <ul>
                 <li><a href="https://www.bmw.com.br/pt/index.html">Site BMW</a></li>
                 <li><a href="https://www.mercedes-benz.com.br/">Site Mercedes</a></li>
