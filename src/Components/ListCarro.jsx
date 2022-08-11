@@ -5,8 +5,8 @@ const ListCarro = (props) => {
       <>
         <h2>{props.subtitulo}</h2>
         <ul>
-          {props.carros.map((item) => (
-            <li>{item}</li>
+          {props.carros.map((carro, index) => (
+            <li key={index}>{carro}</li>
           ))}
         </ul>
       </>
